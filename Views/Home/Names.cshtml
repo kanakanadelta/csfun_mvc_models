@@ -2,13 +2,20 @@
   ViewData["Title"] = "A Web page";
 }
 
-@model string[];
+@model List<User>;
 
 <div>
   <ul>
-    @foreach(var name in Model)
+    @foreach(var user in Model)
     {
-      <li>@name</li>
+      if(@user.LastName == null)
+      {
+        <li>@user.FirstName</li>
+      }
+      else
+      {
+        <li>@user.FirstName @user.LastName</li>
+      }
     }
   </ul>
 </div>

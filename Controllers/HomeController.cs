@@ -24,14 +24,24 @@ namespace TestMvc.Controllers
         [HttpGet("names")]
         public IActionResult Names()
         {
-            string[] names = new string[]
-            {
-                "Bimmy",
-                "Jimmy",
-                "Lee",
-                "Kunio"
+            List<User> users = new List<User>(){
+                new User() {
+                FirstName = "Dude",
+                LastName = "McGuy"
+                },
+                new User() {
+                FirstName = "Cool",
+                LastName = "Girl"
+                },
+                new User() {
+                FirstName = "Meanie"
+                },
+                new User() {
+                FirstName = "Mean",
+                LastName = "Bean"
+                }
             };
-            return View(names);
+            return View(users);
         }
         [HttpGet("numbers")]
         public IActionResult Numbers()
