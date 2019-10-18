@@ -2,13 +2,13 @@
   ViewData["Title"] = "A Web page";
 }
 
-@model string[];
+@model int[];
 
 <div>
   <ul>
-    @foreach(var name in Model)
+    @foreach(var num in Model)
     {
-      <li>@name</li>
+      <li>@num</li>
     }
   </ul>
 </div>

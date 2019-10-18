@@ -2966,6 +2966,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Home/UserView.cshtml",
+      "TargetPath": "Views/Home/UserView.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/_CookieConsentPartial.cshtml",
       "TargetPath": "Views/Shared/_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -2988,6 +2993,11 @@
     {
       "FilePath": "Views/_ViewImports.cshtml",
       "TargetPath": "Views/_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Home/Numbers.cshtml",
+      "TargetPath": "Views/Home/Numbers.cshtml",
       "FileKind": "mvc"
     },
     {

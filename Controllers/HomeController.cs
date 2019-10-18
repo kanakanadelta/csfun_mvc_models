@@ -12,7 +12,8 @@ namespace TestMvc.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            string lorem = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, deserunt cumque ducimus accusamus ab natus recusandae quo accusantium voluptates, incidunt, libero ad veritatis eligendi doloremque fuga. Nisi nesciunt quis aut totam fuga voluptate sapiente quibusdam quam minus sed, molestiae debitis facere ipsam quidem placeat. Minus nesciunt ipsam cupiditate distinctio ullam.";
+            return View("Index", lorem);
         }
 
         public IActionResult Privacy()
@@ -31,6 +32,27 @@ namespace TestMvc.Controllers
                 "Kunio"
             };
             return View(names);
+        }
+        [HttpGet("numbers")]
+        public IActionResult Numbers()
+        {
+            int[] numbers = new int[]
+            {
+                6,6,6,9,4,2,0
+            };
+            return View(numbers);
+        }
+
+        [HttpGet("user")]
+        public IActionResult UserView()
+        {
+            
+            User user = new User()
+            {
+                FirstName = "Dude",
+                LastName = "McGuy"
+            };
+            return View(user);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

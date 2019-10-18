@@ -29,3 +29,5 @@
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/TestMvc.pdb
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/TestMvc.csproj.CopyComplete
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Names.g.cshtml.cs
+/Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Numbers.g.cshtml.cs
+/Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/UserView.g.cshtml.cs

@@ -54,3 +54,12 @@ body {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
 }
+
+ul {
+  border: 1.5px solid #000;
+}
+
+ul li {
+  list-style: none;
+}
+
