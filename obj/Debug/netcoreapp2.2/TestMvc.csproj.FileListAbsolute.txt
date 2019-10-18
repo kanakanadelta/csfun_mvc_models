@@ -28,3 +28,4 @@
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/TestMvc.dll
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/TestMvc.pdb
 /Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/TestMvc.csproj.CopyComplete
+/Users/rtongson/Documents/csharp/mvcfun/TestMvc/obj/Debug/netcoreapp2.2/Razor/Views/Home/Names.g.cshtml.cs

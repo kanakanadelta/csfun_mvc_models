@@ -1,0 +1,13 @@
+@{
+  ViewData["Title"] = "A Web page";
+}
+
+@using TestMvc.Models
+@model string[];
+
+<div>
+  @foreach(var name in Model)
+  {
+    <p>@name</p>
+  }
+</div>

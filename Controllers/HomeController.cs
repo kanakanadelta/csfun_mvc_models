@@ -20,6 +20,19 @@ namespace TestMvc.Controllers
             return View();
         }
 
+        [HttpGet("names")]
+        public IActionResult Names()
+        {
+            string[] names = new string[]
+            {
+                "Bimmy",
+                "Jimmy",
+                "Lee",
+                "Kunio"
+            };
+            return View(names);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
